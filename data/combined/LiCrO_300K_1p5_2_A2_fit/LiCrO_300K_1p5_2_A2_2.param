@@ -1,0 +1,21 @@
+-------------------------------------------
+temperature : 297.00
+-------------------------------------------
+Elastic line :
+Center   = 0.0770 (6436.4457) meV (relative to original E grid) 
+Height   = 0.0011 (5.0605) 
+Width   = 2.0716 (16492.8116) 
+-------------------------------------------
+Inelastic line 1 :
+Center[1] = 29.7196 (607.8202)  meV (relative to elastic) 
+Height[1] = 0.0011 (10.8224)
+Width[1] = 2.4998 (1729780.5990)
+Inelastic line 2 :
+Center[2] = 34.4797 (9893.8608)  meV (relative to elastic) 
+Height[2] = 0.0014 (10.4276)
+Width[2] = 2.4815 (127066.0016)
+Inelastic line 3 :
+Center[3] = 59.2629 (2392.6833)  meV (relative to elastic) 
+Height[3] = 0.0024 (3.4851)
+Width[3] = 0.8981 (4444.2745)
+--------------------------------------------------------

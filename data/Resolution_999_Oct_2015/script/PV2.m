@@ -1,0 +1,10 @@
+function [y]=PV2(v,x)
+y0=v(1);
+A=v(2);
+mu=v(3);
+xc=v(4);
+wL=v(5);
+wG=v(6);
+y=y0+A*(mu*(2./pi)*(wL*1./(4.*(x - xc).^2 + wL^2))+(1-mu)*(sqrt(4.*log(2.))/(sqrt(pi)*wG))*exp(-(4*log(2.)/wG^2)*(x - xc).^2 ));
+%y=(1-mu)*(sqrt(4.*log(2.))/(sqrt(pi)*w))*exp(-(4*log(2.)/w^2)*(x - xc).^2 )
+%y=mu*(w*1./(4.*(x - xc).^2 + w^2))

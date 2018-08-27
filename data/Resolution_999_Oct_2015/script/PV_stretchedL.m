@@ -1,0 +1,10 @@
+function [y]=PV_stretchedL(v,x)
+y0=v(1);
+A=v(2);
+mu=v(3);
+xc=v(4);
+w=v(5);
+ex=v(6);
+y=y0+A*(mu*(2./pi)*(w*1./(4.*abs((x - xc).^ex) + abs(w^ex)))+(1-mu)*(sqrt(4.*log(2.))/(sqrt(pi)*w))*exp(-(4*log(2.)/w^2)*(x - xc).^2 ));
+%y_gaussian=(1-mu)*(sqrt(4.*log(2.))/(sqrt(pi)*w))*exp(-(4*log(2.)/w^2)*(x - xc).^2 )
+%y_lorentzian=mu*(w*1./(4.*(x - xc).^2 + w^2))

@@ -1,0 +1,13 @@
+resolution-filename:
+1) filename-extension ".dat" corresponds to:
+   resolution profile normalized to area=1
+   mostly profiles are fitted and cleaned from background
+   NOT when profile is asymetric
+   
+2) filename-extension ".exp" corresponds to:
+   resolution profile not normalized, includes background, not fitted
+   just the " original" data after extracting from SPECfile and normdata!
+
+All files aXresYY.* in this directory are the latest resolution-profiles
+available for ID28. They are those to be used for fitting/convolutions
+of experimental data.

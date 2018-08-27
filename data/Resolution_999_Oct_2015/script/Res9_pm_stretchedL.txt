@@ -1,0 +1,128 @@
+Reflection: 9 9 9
+Operation mode: pm 
+ 
+ 
+Some definitions:
+
+Intensity: Maximum intensity in original data
+y0: Fitted flat background
+A: Fitted intensity of (normalised) PV
+mu:Fitted mixing parameter of PV
+xc: Fitted centre of PV
+wL: Fitted Lorentzian width in PV
+wG: Fitted Gaussian width in PV
+ex: Fitted exponent of Lorentzian in PV
+resnorm: Squared 2-norm of the residual
+
+
+#############################################################
+PSEUDOVOIGT WITH STRETCHED LORENTZIAN FINAL FITTING PARAMETERS VALUE:
+#############################################################
+Analyzer Number 1: 
+
+Intensity=4733.681100 
+y0=0.000000 
+A=0.900974 
+mu=0.676624 
+xc=-0.073656 
+wL=4.045810
+wG=2.641516
+ex=1.880298
+resnorm=0.002637
+#############################################################
+Analyzer Number 2: 
+
+Intensity=18118.195000 
+y0=0.000000 
+A=1.055015 
+mu=0.645194 
+xc=-0.053241 
+wL=4.053590
+wG=2.601521
+ex=2.039820
+resnorm=0.000653
+#############################################################
+Analyzer Number 3: 
+
+Intensity=14247.017600 
+y0=0.000000 
+A=1.029089 
+mu=0.649471 
+xc=0.018827 
+wL=3.896325
+wG=2.534985
+ex=2.013617
+resnorm=0.000565
+#############################################################
+Analyzer Number 4: 
+
+Intensity=8060.173400 
+y0=0.000000 
+A=0.927520 
+mu=0.592835 
+xc=-0.039505 
+wL=4.429826
+wG=2.634529
+ex=1.902095
+resnorm=0.001017
+#############################################################
+Analyzer Number 5: 
+
+Intensity=22724.457600 
+y0=0.000000 
+A=0.823723 
+mu=0.512038 
+xc=-0.128094 
+wL=4.112762
+wG=2.751967
+ex=1.750598
+resnorm=0.001220
+#############################################################
+Analyzer Number 6: 
+
+Intensity=9554.160800 
+y0=0.000000 
+A=1.074809 
+mu=0.705722 
+xc=-0.050006 
+wL=3.653575
+wG=2.378861
+ex=2.059031
+resnorm=0.001095
+#############################################################
+Analyzer Number 7: 
+
+Intensity=4799.543100 
+y0=0.000000 
+A=1.097614 
+mu=0.683228 
+xc=0.011046 
+wL=4.486451
+wG=2.476567
+ex=2.071173
+resnorm=0.001806
+#############################################################
+Analyzer Number 8: 
+
+Intensity=20090.795500 
+y0=0.000000 
+A=1.094186 
+mu=0.618934 
+xc=0.023113 
+wL=3.973135
+wG=2.554088
+ex=2.086392
+resnorm=0.000387
+#############################################################
+Analyzer Number 9: 
+
+Intensity=9097.048300 
+y0=0.000000 
+A=1.014240 
+mu=0.642295 
+xc=-0.025097 
+wL=3.870817
+wG=2.615677
+ex=1.998026
+resnorm=0.001851
+#############################################################

@@ -1,0 +1,39 @@
+resolution-filenames:
+In the beginning of september 2001 we observed that the resolution profiles
+taken in 16bunch mode and in 200mA-mode of the ESRF are not the same.
+Since then we re-measured the resolution profiles of Si(999) and Si(11,11,11)
+in a 200mA mode.
+This means, that now there are two valid resolution profiles available for
+Si(999) and Si(11,11,11), one for 16bunch mode, the other for 200mA modes!
+This necessitates a change of the names of the profiles to distinguish the
+modes!
+
+1) Si(888) resolution profiles have not (yet) been re-measured in 200mA
+mode. In fact it is not completely known, in which mode they have been
+measured; most probably it has been in 16 bunch mode.
+The filenames are: (N=1,...5)
+aNres8.dat
+aNres8l.dat (for +-100meV range); these "l-files" are only extrapolations
+of the shorter, "normal" profiles.
+
+2) Si(999): As said above, Si(999) data is available both for 16bunch- and
+200mA-modes. N=1,...5
+aNres9.090 : 16bunch resolution profiles
+aNres9.200 : 200mA modes resolution profiles
+   
+3) Si(11,11,11): As said above, Si(11,11,11) data is available both for
+16bunch- and 200mA-modes. N=1,...5
+aNres11.090 : 16bunch resolution profiles
+aNres11.200 : 200mA modes resolution profiles
+
+4) The all the above profiles are centred around zero-energy transfer and
+are normalised to area=1.
+For Si(999) and Si(11,11,11), there are so-called "experimental" resolution
+profiles, which are non-fitted data, only normalised to area=1 and centred
+at energy=0. These "experimental" resolution profiles are taken in 16bunch
+mode. Thus they are named: (N=1,...5; XY = 9 or 11)
+aNexpXY.090
+
+All files aNresXY.* in this directory are the latest resolution-profiles
+available for ID28. They are those to be used for fitting/convolutions
+of experimental data.
